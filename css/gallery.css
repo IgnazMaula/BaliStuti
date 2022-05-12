@@ -54,7 +54,7 @@
 
 .gallery .gallery-wrap::before {
   content: "";
-  background: rgba(210,156,50, 0.4);
+  background: rgba(210,156,50, 0.3);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -77,9 +77,9 @@
 }
 
 .gallery .gallery-wrap .gallery-info h4 {
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .gallery .gallery-wrap .gallery-info p {

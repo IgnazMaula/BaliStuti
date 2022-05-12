@@ -29,6 +29,9 @@ body {
   .bg-dark {
     background: #151515 !important;
   }
+  .color-gold {
+    color: #d29c32 !important;
+  }
   
 
   /* Header */
@@ -444,7 +447,10 @@ body {
 /* Our Team Page */
 .ourTeam {
   padding-top: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: white;
+  text-align: center;
 }
 .ourTeam h2 {
   color: #3f3f3f;
@@ -452,6 +458,7 @@ body {
   font-size: 52px;
 }
 .ourTeam .item {
+  width: 400px;
   padding: 15px;
   padding-bottom: 30px;
   text-align: center;
@@ -488,7 +495,7 @@ body {
   font-weight: 600;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 23px;
   color: #3f3f3f;
 }
 .ourTeam .item h5 {
@@ -540,6 +547,89 @@ body {
     margin-right: 15px;
   }
 }
+
+/* Product Details Page */
+.productDetails {
+  background-color: #fff;
+  padding-top: 150px;
+  text-align: justify;
+}
+.productDetails .content {
+  padding-right: 50px;
+  line-height: 32px;
+}
+.productDetails .type {
+  padding-left: 50px;
+}
+.productDetails h2 {
+  color: #3f3f3f;
+  font-weight: 900;
+  font-size: 52px;
+}
+.productDetails h3 {
+  font-weight: 700;
+  font-size: 28px;
+}
+.productDetails ul {
+  list-style: none;
+  padding: 0;
+}
+.productDetails ul li {
+  padding: 0 0 8px 26px;
+  position: relative;
+}
+
+.productDetails .icon-box {
+  padding-left: 15px;
+}
+.productDetails .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+.productDetails .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #d29c32;
+}
+.productDetails .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+.productDetails .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+.productDetails-btn {
+  text-align: center;
+  margin-right: 15px;
+  width: 160px;
+  margin-top: 20px;
+  color: #848484;
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  border: 2px solid #d29c32;
+}
+.productDetails-btn:hover {
+  background: #ffbb38;
+  color: #343a40;
+}
+@media (max-width: 992px) {
+  .productDetails-btn {
+    padding: 7px 20px 8px 20px;
+    margin-right: 15px;
+  }
+}
+
 
 /* Media Querry */
 
