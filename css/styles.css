@@ -653,9 +653,6 @@ body {
   .about .content {
     padding-right: 12px;
   }
-  #hero {
-    /* height: auto; */
-  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
